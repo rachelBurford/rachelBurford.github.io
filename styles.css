@@ -5,6 +5,7 @@ body {
     color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,6 +14,27 @@ ul {
     background-color: #f1f1f1;
     float: right;
 }
+h1 {
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 30px;
+}
+h2 {
+    font-weight: bold;
+    color: thistle;
+    font-size: 25px;
+}
+p {
+    font-weight: normal;
+    color: yellowgreen;
+    font-size: 20px;
+}
+h3 {
+    font-weight: bold;
+    color: thistle;
+    font-size: 35px;
+}
+
 li a {
     display: block;
     color: #000;
@@ -26,54 +48,102 @@ li a:hover {
 button {
     border-radius: 3px;
     background-color: yellow;
-    
+    height: 30px;
+    width: fit-content;
 }
 .arrows {
     height: 30px;
     width: 30px;
 }
 #hero-section {
+    padding-inline-start: 40px;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
     outline: lightpink;
     outline-style: dotted;
     outline-width: thin;
 }
 #hero {
-    width:30%;
-    height: 220px;
-    left: 50%;
-    margin-top: -1px;
-    margin-left: 800px;
     outline: lightskyblue;
     outline-style: dotted;
     outline-width: thin;
+    min-width: 33.33%
 }
 #hero-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 200px;
     padding: 15px;
+}
+#left-content {
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
+    display: flex;
+    padding-top: 150px;
+    min-width: 33.33%
+}
+#rachel {
+    color: tomato;
+}
+#role {
+    outline: lightpink;
+    outline-style: dotted;
+    outline-width: thin;
+    min-width: 33.33%
 }
 #bio-section {
     outline: lightskyblue;
     outline-style: dotted;
     outline-width: thin;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
 }
 #project-section {
     outline: lightgreen;
     outline-style: dotted;
     outline-width: thin;
+    padding: 40px;
 }
-#left-content {
-    height: 220px;
-    width: 220px;
-    outline: lightgreen;
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+.project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+#project-one {
+    outline:white;
     outline-style: dotted;
     outline-width: thin;
+    margin: auto;
+    max-width: 20%;
+    text-align: center;
 }
-#role {
-    height: 220px;
-    margin-left: 60%;
-    outline: lightpink;
+#project-two {
+    outline:white;
     outline-style: dotted;
     outline-width: thin;
+    margin: auto;
+    max-width: 20%;
+    text-align: center;
+}
+#project-three {
+    outline:white;
+    outline-style: dotted;
+    outline-width: thin;
+    margin: auto;
+    max-width: 20%;
+    text-align: center;
 }
