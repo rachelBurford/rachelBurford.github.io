@@ -5,3 +5,75 @@ body {
     color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    float: right;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightblue;
+    color: lightpink;
+}
+button {
+    border-radius: 3px;
+    background-color: yellow;
+    
+}
+.arrows {
+    height: 30px;
+    width: 30px;
+}
+#hero-section {
+    display: flex;
+    outline: lightpink;
+    outline-style: dotted;
+    outline-width: thin;
+}
+#hero {
+    width:30%;
+    height: 220px;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: 800px;
+    outline: lightskyblue;
+    outline-style: dotted;
+    outline-width: thin;
+}
+#hero-image {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+#bio-section {
+    outline: lightskyblue;
+    outline-style: dotted;
+    outline-width: thin;
+}
+#project-section {
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
+}
+#left-content {
+    height: 220px;
+    width: 220px;
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
+}
+#role {
+    height: 220px;
+    margin-left: 60%;
+    outline: lightpink;
+    outline-style: dotted;
+    outline-width: thin;
+}

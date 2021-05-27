@@ -10,55 +10,58 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <img src="Photos/Arrow-Right.png">
-            <h1>Rachel Burford</h1> 
-            <img src="Photos/Arrow-Right.png">
-            <img src="Photos/Circle-headshot.png">
-            <img src="Photos/Arrow-right-blue.png">
-
-            <h2>Accountant
-                Business Owner
-                Business Leader
-            </h2>
-
-            <nav>
-                <a href="">Qualifications</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
-            </nav>
+        <header class="header">
+            <ul>
+                <li><a href="">Qualifications</a></li>
+                <li><a href="index2.html">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </header>
         <main>
-            <section>
+            <section id="hero-section">
+                <div id="left-content">
+                    <img class=arrows src="Photos/Arrow-Right.png"><span<h1>Rachel Burford</h1><img class=arrows src="Photos/Arrow-Right.png"></span>
+                </div>
+                <div id=hero>
+                    <img id=hero-image src="Photos/Circle-headshot.png">
+                </div>
+                <div id="role">
+                    <img class=arrows id=roles-arrow src="Photos/Arrow-right-blue.png">
+                    <h2 class=roles id="accountant">Accountant</h2>
+                    <h2 class=roles id="business-owner">Business Owner</h2>
+                    <h2 class=roles id="business-leader">Business Leader</h2>
+                </div>    
+            </section>
+            <section id="bio-section">
                 <div id=bio>
                     <h2>about me:</h2>
                         <p>
                             words about me go here ... 
                         </p>
                     image 
-                    <button type="submit">read more"</button>
+                    <button type="submit">read more</button>
                 </div>
             </section>
-            <section>
+            <section id="project-section">
                 <div id=projects>
                     <h2>my projects:</h2>
                         <section id=project-one>
                             <image>...</image>
                             <h3>project one</h3>
                             <p>words about project one</p>
-                            <button type="submit">read more"</button>
+                            <button type="submit">read more</button>
                         </section>
                         <section id=project-two>
                             <image>...</image>
                             <h3>project two</h3>
                             <p>words about project one</p>
-                            <button type="submit">read more"</button>
+                            <button type="submit">read more</button>
                         </section>
                         <section id=project-three>
                             <image>...</image>
                             <h3>project three</h3>
                             <p>words about project one</p>
-                            <button type="submit">read more"</button>
+                            <button type="submit">read more</button>
                         </section>
                 </div>
             </section>
@@ -85,7 +88,7 @@
         </main>
     </body>
     <footer>
-        <h4>08 9172 2062 <span >copyright image rachel@pilbaratax.com.au</span></h4>
+        <h4>08 9172 2062 <span >copyright image <img class=arrows id=contact-arrow src="Photos/Arrow-right-blue.png" alt=""> rachel@pilbaratax.com.au</span></h4>
     </footer>
 
 </html>
