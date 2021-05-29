@@ -67,7 +67,6 @@ button {
     outline: lightpink;
     outline-style: dotted;
     outline-width: thin;
-    height: 215px;
 }
 #hero {
     outline: lightskyblue;
@@ -87,10 +86,33 @@ button {
     outline: lightgreen;
     outline-style: dotted;
     outline-width: thin;
-    place-content: center;
     padding-top: 50px;
+    place-content: center;
     min-width: 33.33%
 }
+#naming {
+    float: left;
+    border: 1px solid black;
+    width: 50%;
+}
+#arrow-left {
+    float: left;
+}
+#first-name {
+    float: right;
+}
+#naming-2 {
+    float: right;
+    border: 1px solid black;
+    width: 50%;
+}
+#last-name {
+    float: left;
+}
+#arrow-right {
+    float: right;
+}
+
 #rachel {
     color: tomato;
 }
@@ -142,17 +164,19 @@ vertical-align: middle;
     outline-style: dotted;
     outline-width: thin;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:stretch;
     align-items: center;
 }
 #bio-words {
     text-align: center;
+    width: 50% !important;
 }
 #bio-images {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: baseline;
+    width: 30% !important;
 }
 .bio-logo {
     height: 85px;
@@ -182,7 +206,7 @@ vertical-align: middle;
     outline-style: dotted;
     outline-width: thin;
     margin: auto;
-    max-width: 20%;
+    max-width: 25%;
     text-align: center;
 }
 #project-two {
@@ -190,7 +214,7 @@ vertical-align: middle;
     outline-style: dotted;
     outline-width: thin;
     margin: auto;
-    max-width: 20%;
+    max-width: 25%;
     text-align: center;
 }
 #project-three {
@@ -198,7 +222,7 @@ vertical-align: middle;
     outline-style: dotted;
     outline-width: thin;
     margin: auto;
-    max-width: 20%;
+    max-width: 25%;
     text-align: center;
 }
 #contact {
