@@ -5,14 +5,19 @@ body {
     color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
+header {
+    margin: 50px;
+    align-content:space-between;
+}
+#nav {
+    float:right;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    float: right;
 }
 h1 {
     font-weight: bolder;
@@ -59,7 +64,6 @@ button {
     width: 30px;
 }
 #hero-section {
-    padding-inline-start: 40px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -67,6 +71,7 @@ button {
     outline: lightpink;
     outline-style: dotted;
     outline-width: thin;
+    padding: 40px;
 }
 #hero {
     outline: lightskyblue;
