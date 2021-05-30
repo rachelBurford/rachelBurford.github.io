@@ -12,7 +12,7 @@ nav {
     float:right;
     margin-top: 40px;
 }
-ul {
+#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -164,22 +164,9 @@ vertical-align: middle;
 #project-section {
     padding: 40px;
 }
-#projects {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    }
 .project-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
-    width: 150px;
-}
-#project-one {
-    margin: auto;
-    max-width: 25%;
-    text-align: center;
+    height: 500px;
+    width: 1200px;
 }
 #project-two {
     margin: auto;
@@ -269,7 +256,7 @@ h4 {
         margin-top: 10px;
         width: fit-content;
     }
-    ul {
+    #menu {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -291,6 +278,11 @@ h4 {
         text-transform: capitalize;
     }
     p {
+        font-weight: normal;
+        color: yellowgreen;
+        font-size: 12px;
+    }
+    #listing {
         font-weight: normal;
         color: yellowgreen;
         font-size: 12px;
@@ -427,11 +419,6 @@ h4 {
     #project-section {
         padding: 10px;
     }
-    #projects {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        }
     .project-image {
         display: block;
         margin-left: auto;
@@ -444,19 +431,8 @@ h4 {
     }
     #project-one {
         margin: 0;
-        max-width: 25%;
+        max-width: 95%;
         text-align: center;
-    }
-    #project-two {
-        margin: 0;
-        max-width: 25%;
-        text-align: center;
-    }
-    #project-three {
-        margin: 0;
-        max-width: 25%;
-        text-align: center;
-    }
     #contact {
         padding: 10px;
     }
@@ -571,25 +547,10 @@ h4 {
     .hero-word h2 {
         margin: 1px;
     }
-    #bio-images {
-        display: inline-block;
-        width: 15%;
-        padding-left: 2px;
-    }
-    #tpb {
-        margin-left: 25.5px;
-    }
-    #bio-words {
-        width: 65% !important;
-    }
-    #projects {
-        display: inline-block;
-        width: 300%;
-        padding: left 40px;
-    }
+    
     .project-image {
-        height: 250px;
-        width: 250px;
+        height: 150px;
+        width: 300px;
         padding-left: 0;
         padding-right: 0;
     }

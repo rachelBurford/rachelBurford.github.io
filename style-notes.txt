@@ -1,0 +1,72 @@
+<div id="wrapper">
+    <div id="left">
+      <div id="div1"><<</div>
+      <div id="div2">First name</div>
+    </div>
+    </br>
+    <div div id="right">
+      <div id="div3">Last name</div>
+      <div id="div4">>></div>
+    </div>
+</div>
+
+
+
+#wrapper {
+}
+#right {
+  float: right;
+  border: 1px solid black;
+}
+#left {
+  float: left;
+  border: 1px solid black;
+}
+#div1 {
+  float: left;
+}
+#div2 {
+  float: right;
+}
+#div3 {
+  float: left;
+}
+#div4 {
+  float: right;
+}
+
+killed:
+
+#first-name {
+    display: inline-block Imp !important;
+}
+#lastname {
+    display: inline-block !important;
+}
+#naming {
+    width: 100%;
+
+}
+
+also deleted - 
+
+#left-content {
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
+    padding-top: 50px;
+    place-content: center;
+    min-width: 33.33%
+
+fixing nav 
+ <header class="header">
+            <div id="nav">
+            <ul>
+                <li><a href="#bio-section">Qualifications</a></li>
+                <li><a href="index2.html">Projects</a></li>
+                <li><a href="#contact-anchor">Contact</a></li>
+            </ul>
+            <div>
+            </div>
+        </header>
+        <main>

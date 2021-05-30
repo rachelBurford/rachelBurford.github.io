@@ -6,27 +6,19 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Rachel Burford Projects</title>
-        <link rel="stylesheet" href="project-one.css" />
+        <title>max size 900 wide - table view</title>
+        <link rel="stylesheet" href="media-q1.css" />
     </head>
     <body>
         <header class="header">
             <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
+                <ul>
                     <li><a href="#bio-section">Qualifications</a></li>
+                    <li><a href="index2.html">Projects</a></li>
                     <li><a href="#contact-anchor">Contact</a></li>
                     <li><a href="index2.html">Google Distractions</a></li>
                 </ul>
             </nav>
-            <div class="dropdown">
-                <button class="dropbtn">Options</button>
-                <div class="dropdown-content">
-                  <a href="#bio-section">Bio</a>
-                  <a href="index2.html">Projects</a>
-                  <a href="#contact-anchor">Contact</a>
-                </div>
-            </div>
             <section id="hero-section">
                 <div id="left-content">
                     <div id="naming">
@@ -54,43 +46,75 @@
                     <div>
                         <img class=arrows id=roles-arrow src="Photos/arrow-image.png">
                     </div>
-                    <div id="browser">   
+                    <div>    
                         <h2 class="hero-word" id="accountant">Accountant</h2>
                         <h2 class="hero-word" id="business-owner">Business Owner</h2>
                         <h2 class="hero-word" id="business-leader">Business Leader</h2>
-                    </div>
-                    <div id="mobile">
-                        <h2 class="hero-word" id="m-accountant">Accountant</h2>
-                        <h2 class="hero-word" id="m-business-owner">Business Owner</h2>
-                        <h2 class="hero-word" id="m-business-leader">Business Leader</h2>
                     </div>
                 </div>    
             </section>
         </header>
         <main>
+            
+            <section id="bio-section">
+                <div>
+                    <h2 id="about">about me:</h2>
+                </div>
+                <div id=bio>
+                    <section class="bio-part" id="bio-words">
+                        <p>
+                            Working as a CPA accountant in Port Hedland for a decade, 
+                            I have decided that the time is now to look to further develop my skillset. 
+                            To do this I have signed up with Shecodes to learn how to code. 
+                            Technology is integral to my occupation; as an accountant we are now 
+                            using many programs to carry out our jobs and knowing a little more about 
+                            how they all work will be a big help to my career. I hope to be able to 
+                            build better business applications with purpose built uses for my business and my clients’ businesses.  
+                        </p>
+                        <button type="submit">read more</button>
+                    </section>
+                    <section class=bio-part id="bio-images">
+                            <div>
+                                 <a href="https://content.cpaaustralia.com.au/FindACpa/Locate.mvc/Index/">
+                                <img class=bio-logo src="Photos/CPA Logo.jpeg" alt="cpa.com.au"></a>
+                            </div>
+                            <div>
+                                <a href="https://www.tpb.gov.au/tax-practitioner/tax-agent/24627922">
+                                <img class=bio-logo src="Photos/TPB Logo.png" alt="tpb.gov.au"></a>
+                            </div>
+                            <div>
+                                <a href="https://www.xero.com/au/advisors/accountant/itp-pilbara-business-services-3e25819bf412/">
+                                <img class=bio-logo src="Photos/Xero Logos.png" alt="xero.com"></a>
+                            </div>
+                    </section>
+                </div>
+            </section>
+
             <section id="project-section">
                 <div>
                     <h2>my projects:</h2>
                 </div>
                 <div id=projects>
                         <section id=project-one>
-                            <img class=project-image src="Photos/Responsive Design.png">
+                            <img class=project-image src="Photos/project-one.png">
                             <h3>project one</h3>
-                            <p>Project one was about html and css which is used to build websites. In four short weeks we learned the basics of coding in HTML to build a website. 
-                                    <ul id="listing">
-                                        <li><a href="">html and css - the building blocks of websites</a></li>
-                                        <li><a href="">forms - the content collection options on websites</a></li>
-                                        <li><a href="">media queries - the way we make websites work on multiple devices</a></li>
-                                        <li><a href="">github - the way we track versions and load our work to the world :) </a></li>
-                                    </ul>
-                            </p>
+                            <p>project one was about html and css which is used to build websites</p>
+                            <button type="submit">read more</button>
+                        </section>
+                        <section id=project-two>
+                            <img class=project-image src="Photos/project-two.png">
+                            <h3>project two</h3>
+                            <p>project two is about other cool things we are yet to learn</p>
+                            <button type="submit">read more</button>
+                        </section>
+                        <section id=project-three>
+                            <img class=project-image src="Photos/project-three.png">
+                            <h3>project three</h3>
+                            <p>project three is about even more coll stuff we are still waiting to learn</p>
                             <button type="submit">read more</button>
                         </section>
                 </div>
             </section>
-                </div>
-            </section>
-
             <section id=contact>
                 <h2 id="contact-anchor">contact me:</h2>
                 <form action="https://formspree.io/f/xpzkddbn" method="post">
