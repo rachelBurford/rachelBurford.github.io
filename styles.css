@@ -7,10 +7,14 @@ body {
 }
 header {
     margin: 50px;
-    align-content:space-between;
+    outline: lightskyblue;
+    outline-style: dotted;
+    outline-width: thin;
+
 }
-#nav {
+nav {
     float:right;
+    margin-top: 40px;
 }
 ul {
     list-style-type: none;
@@ -18,6 +22,7 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    float: right;
 }
 h1 {
     font-weight: bolder;
@@ -92,24 +97,29 @@ button {
     outline-style: dotted;
     outline-width: thin;
     padding-top: 50px;
-    place-content: center;
     min-width: 33.33%
 }
 #naming {
     float: left;
     border: 1px solid black;
-    width: 50%;
+    width: 45%;
 }
 #arrow-left {
     float: left;
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
 }
 #first-name {
     float: right;
+    outline: lightgreen;
+    outline-style: dotted;
+    outline-width: thin;
 }
 #naming-2 {
     float: right;
     border: 1px solid black;
-    width: 50%;
+    width: 45%;
 }
 #last-name {
     float: left;
@@ -117,7 +127,9 @@ button {
 #arrow-right {
     float: right;
 }
-
+.hero-word {
+    max-height: 31px !important;
+}
 #rachel {
     color: tomato;
 }
